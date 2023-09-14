@@ -38,7 +38,14 @@ function Footer() {
                 <p className={s.listHeader}>Help</p>
                 <ul>
                   <li><Link to="/contact">Contact</Link></li>
-                  <li><a href="#">Legal</a></li>
+                  <li>
+                    <a 
+                      href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" 
+                      target="_blank"
+                    >
+                      Legal
+                    </a>
+                  </li>
                 </ul>
               </div>
 
