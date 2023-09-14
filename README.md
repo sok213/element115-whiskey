@@ -1,1 +1,1 @@
-This is a fictional alien whiskey webapge built in react. Feel free to dive into the source code and pretend you know what you're looking at.
+This is a fictional alien whiskey webpage built in react. Feel free to dive into the source code and pretend you know what you're looking at.
