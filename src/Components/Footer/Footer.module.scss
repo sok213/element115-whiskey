@@ -7,6 +7,10 @@
   border-bottom: 2px solid #212121;
   margin: 40px;
   display: flex;
+
+  @media (max-width: 999px) {
+    margin: 20px;
+  }
 }
 
 .logoContainer {

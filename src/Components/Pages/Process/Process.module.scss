@@ -116,3 +116,13 @@
     border-bottom: thin solid white;
   }
 }
+
+@media (max-width: 500px) {
+  .processHeader {
+    text-align: left;
+
+    h2 {
+      text-align: left !important;
+    }
+  }
+}

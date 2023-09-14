@@ -70,7 +70,7 @@ function Process() {
       {/* Text row */}
       <div className='row'>
         <div className='container'>
-          <div className='row__centerContent'>
+          <div className={`row__centerContent ${s.processHeader}`}>
             <h2 className='row__header'>Space Liquor Engineering</h2>
             <p className='row__textContent'>From Scottish Barley to Cosmic Bliss: <br></br>Where Earth Meets Element 115</p>
           </div>
