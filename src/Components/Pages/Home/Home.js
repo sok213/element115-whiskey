@@ -61,7 +61,7 @@ function Home() {
           <div className={`row__centerContent ${s.awardsContent}`}>
             <h2 className='row__header'>Element 115 is one of the top 10 whiskeys in the universe</h2>
             <p className='row__textContent'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+              Awarded as one of the best whiskey brands across the entire universe.
             </p>
             <div className='row__icon'>
               <div className={s.awardIconContainer}>
