@@ -1,0 +1,160 @@
+.timelineContainer {
+  // border: thin solid red;
+  display: flex;
+  justify-content: center;
+  color: white;
+  min-height: 2400px;
+  height: 100%;
+  margin-bottom: 50px;
+
+  @media (max-width: 780px) {
+    display: none;
+  }
+}
+
+.timelineMobileContainer {
+  display: none;
+  width: 100%;
+  flex-direction: column;
+  color: white;
+  text-align: left;
+  padding: 20px;
+
+  .mobileHeader {
+    font-size: 28px;
+    color: #FF9C06;
+    font-weight: bold;
+    padding-bottom: 20px;
+  }
+
+  .mobileTextContainer {
+    padding: 20px 0px;
+    font-weight: lighter;
+  }
+  
+  .mobileImageContainer {
+    border-radius: 10px;
+    border: thin solid greenyellow;
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+    filter: brightness(0.8);
+  }
+
+  @media (max-width: 780px) {
+    display: flex;
+  }
+}
+
+.leftCol {
+  // border: thin solid white;
+  width: 100%;
+  max-width: 600px;
+  padding: 0px 20px;
+  height: 100%;
+}
+
+#leftColItem-0,
+#leftColItem-1,
+#leftColItem-2,
+#leftColItem-3,
+#leftColItem-4,
+#rightColItem-0,
+#rightColItem-1,
+#rightColItem-2,
+#rightColItem-3,
+#rightColItem-4
+{
+  display: none;
+}
+
+.midCol {
+  background: #212121;
+  width: 10px;
+  min-height: 1000px;
+  margin: 40px 0px;
+  border-radius: 50px;
+  position: relative;
+}
+
+.rightCol {
+  max-width: 600px;
+  width: 100%;
+  padding: 0px 20px;
+  height: 100%;
+}
+
+.imageItem {
+  border: 2px solid #33FF00;
+  height: 400px;
+  max-width: 400px;
+  width: 100%;
+  margin: 50px auto;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  filter: brightness(80%);
+}
+
+.detailItem {
+  max-height: 400px;
+  max-width: 400px;
+  height: 400px;
+  width: 100%;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+
+  .header {
+    width: 100%;
+    text-align: left;
+    color: #FF9C06;
+    font-size: 45px;
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+
+  .detailText {
+    text-align: left;
+    font-weight: lighter;
+  }
+}
+
+.ufo {
+  height: auto;
+  width: 120px;
+  position: relative;
+  left: -55px;
+  top: -10px;
+  opacity: 0.8;
+  animation: hoverUFO 2s ease-in-out infinite;
+  z-index: 2;
+  transition: 0.8s;
+}
+
+@keyframes hoverUFO {
+  0% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-8px);
+  }
+  100% {
+      transform: translateY(0);
+  }
+}
+
+.cow {
+  position: absolute;
+  height: auto;
+  width: 100px;
+  left: -40px;
+  bottom: -24px;
+}
+
+.debug {
+  color: white;
+  font-size: 40px;
+  position: fixed;
+  z-index: 999;
+}

@@ -1,0 +1,88 @@
+.columnItem {
+  height: auto;
+  width: 350px;
+  margin: 20px 20px;
+  padding: 20px;
+  background-color: #1B1B1B;
+  border-radius: 10px;
+  border: 1px solid rgb(255, 255, 255);
+  text-align: left;
+  
+  .columnItem__title {
+    color: greenyellow;
+    padding: 20px 10px 10px 10px;
+  }
+
+  .columnItem__image {
+    width: 100%;
+    height: 180px;
+    border-radius: 10px 10px 0px 0px;
+    background-size: cover;
+    background-position: center 75%;
+  }
+
+  .columnItem__detail {
+    color: white;
+    font-weight: lighter;
+    padding: 0px 10px;
+  }
+
+  @media (max-width: 794px) {
+    width: 500px;
+  }
+
+  @media (max-width: 594px) {
+    width: 100%;
+  }
+}
+
+.columnContainer {
+  padding: 40px 0px 40px 0px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+  @media (max-width:1190px) {
+    justify-content: flex-start;
+    padding-left: 160px;
+  }
+
+  @media (max-width: 999px) {
+    justify-content: flex-start;
+    padding-left: 0px;
+  }
+
+  @media (max-width: 799px) {
+    justify-content: center;
+    padding-left: 0px;
+  }
+}
+
+.columnController {
+  max-width: 500px;
+  margin: auto;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 40px 0px;
+}
+
+.columnController__Items button {
+  border-radius: 40px;
+  border: 2px solid greenyellow;
+  color: greenyellow;
+  padding: 20px 40px;
+  font-weight: light;
+
+  &:hover {
+    opacity: 0.6;
+    background: none;
+  }
+
+  @media (max-width: 570px) {
+    padding: 20px;
+  }
+}

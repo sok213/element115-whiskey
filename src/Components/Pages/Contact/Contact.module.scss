@@ -1,0 +1,92 @@
+.formContainer {
+  max-width: 600px;
+  margin: auto;
+  padding: 40px 20px;
+  flex-grow: 1;
+}
+
+.loadContainer {
+  margin: auto;
+  width: 100%;
+}
+
+.errorMessage {
+  color: white;
+  background-color: rgb(242, 47, 47);
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-weight: lighter;
+}
+
+.ctaButton {
+  max-width: 100px;
+  width: 100%;
+  margin: auto;
+  margin-top: 10px;
+  background-color: greenyellow !important;
+  color: #0B0B0B !important;
+  transition: 0.2s;
+
+  &:hover {
+    background-color: rgb(127, 192, 31) !important;
+  }
+}
+
+.contact-form {
+  display: grid;
+  gap: 15px;
+  text-align: left;
+  background-color: #0B0B0B;
+  color: white;
+  font-weight: bold;
+  padding: 30px 40px;
+  border-radius: 15px;
+
+  h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #FF9C06;
+  }
+
+  input, textarea {
+    color: #0B0B0B;
+    font-weight: bold;
+  }
+}
+
+.successMsgContainer {
+  background-color: #0B0B0B;
+  border: thin solid greenyellow;
+  color: greenyellow;
+  max-width: 500px;
+  margin: 100px auto;
+  padding: 20px 40px 40px 40px;
+  border-radius: 10px;
+  display: none;
+  flex-direction: column;
+  font-size: 22px;
+
+  .checkmarkIcon {
+    margin-bottom: 10px;
+    font-size: 45px;
+  }
+}
+
+.label {
+  font-weight: bold;
+  color: #555;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #081a53;
+  border-radius: 4px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+  .formContainer {
+      padding: 10px;
+  }
+}

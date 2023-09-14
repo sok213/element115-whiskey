@@ -1,0 +1,55 @@
+.leftCol, .rightCol {
+  width: 100%;
+  color: white;
+}
+
+.leftCol {
+  background: #24343F;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header {
+  color: #FF9C06;
+  font-weight: bold;
+  font-size: 28px;
+  padding-bottom: 20px;
+}
+
+.textContent {
+  max-width: 800px;
+  margin: auto;
+  text-align: left;
+
+  p {
+    line-height: 32px;
+    font-weight: lighter;
+  }
+}
+
+.rightCol {
+  background-image: url('./../../../assets/map.JPG');
+  min-height: 500px;
+  background-size: cover;
+}
+
+.contactContainer {
+
+  max-width: 1600px;
+  margin-top: 50px;
+
+  @media (max-width: 1620px) {
+    margin-top: 0px;
+  }
+
+  @media (max-width: 850px) {
+    flex-direction: column;
+    max-width: 1600px;
+
+    .rightCol {
+      min-height: 300px;
+    }
+  }
+}

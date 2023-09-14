@@ -1,0 +1,118 @@
+.leftCol, .rightCol {
+  width: 100%;
+  color: white;
+}
+
+.leftCol {
+  background: #24343F;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  p {
+    font-weight: lighter;
+  }
+
+  .accordionHeader {
+    padding: 15px 0px;
+    margin: 0px;
+    text-align: left;
+    color: #FF9C06;
+    font-weight: bold;
+    font-size: 28px;
+  }
+}
+
+.header {
+  color: #FF9C06;
+  font-weight: bold;
+  font-size: 28px;
+  padding-bottom: 20px;
+}
+
+.textContent {
+  max-width: 800px;
+  margin: auto;
+  text-align: left;
+
+  p {
+    line-height: 32px;
+  }
+}
+
+.rightCol {
+  width: 100%;
+  background-color: #24343F;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+
+  @media (max-width: 1300px) {
+    padding: 10px 30px;
+  }
+
+  @media (max-width: 850px) {
+    padding: 0px;
+  }
+}
+
+.processContainer {
+  text-align: left;
+  max-width: 1600px;
+  margin-top: 50px;
+
+  @media (max-width: 1620px) {
+    margin-top: 0px;
+  }
+
+  @media (max-width: 850px) {
+    flex-direction: column;
+    max-width: 1600px;
+
+    .rightCol {
+      min-height: 300px;
+    }
+  }
+}
+
+.accordion {
+  padding: 40px 0px;
+
+  .accordionItem {
+    // border: thin solid red;
+
+    .openItem {
+      max-height: 500px;
+      transition: max-height 0.4s ease-in;
+    }
+  }
+
+  .accordionTitle {
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+
+    i {
+      position: relative;
+      top: 5px;
+    }
+  }
+
+  .accordionContent {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+
+    p {
+      padding: 20px 0px;
+    }
+  }
+
+  button {
+    text-align: left;
+    padding: 20px 0px;
+    width: 100%;
+    border-bottom: thin solid white;
+  }
+}

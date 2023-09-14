@@ -1,0 +1,72 @@
+h1, h2, h3, h4, p, button, li {
+  font-family: 'Montagu Slab', serif;
+}
+
+body {
+  background-color: #0B0B0B !important;
+}
+
+.container {
+  max-width: 2000px;
+  width: 100%;
+  display: flex;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  width: auto;
+
+  .row__icon {
+    margin: auto;
+    
+    img {
+      max-width: 70px;
+    }
+  }
+
+  .row__header {
+    padding: 15px 0px;
+    margin: 0px;
+    text-align: center;
+    color: #FF9C06;
+    font-weight: bold;
+    font-size: 28px;
+  }
+
+  .row__centerContent {
+    padding: 20px 40px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .row__textContent {
+    color: white;
+    font-weight: lighter;
+    margin-top: 0px;
+    font-size: 22px;
+    max-width: 800px;
+    line-height: 36px;
+    margin: auto;
+    padding-bottom: 20px;
+  }
+}
+
+.row--secondaryBg {
+  background: #24343F;
+}
+
+.row--gradientBG {
+  background: rgb(36,52,63);
+  background: linear-gradient(180deg, rgba(36,52,63,1) 0%, rgba(2,16,25,1) 100%);
+}
+
+// active navbar link
+.active {
+  border-color: greenyellow !important;
+  transition: 0.3s;
+  color: greenyellow !important;
+}
