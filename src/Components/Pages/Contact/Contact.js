@@ -89,7 +89,7 @@ function Contact() {
           style={(!loading && !formStatus) ? { display: 'flex' } : null}
         >
           <i className={`${s.checkmarkIcon} bi bi-check-circle`}></i>
-          <p>You're message has been sent!</p>
+          <p>Your message has been sent!</p>
         </div>
         
         <div className={`${s.loadContainer} animate__animated animate__fadeIn`} 
