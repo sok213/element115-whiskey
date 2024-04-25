@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import s from './NavigationBar.module.scss';
-import logoNav from './../../assets/logo_nav.png';
+import logoNav from './../../assets/new-logo-mobile.png';
 
 const NavigationBar = () => {
 

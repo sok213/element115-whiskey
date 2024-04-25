@@ -2,7 +2,7 @@ import s from './Slideshow.module.scss';
 import React, { useState } from 'react';
 import { Button } from '@chakra-ui/react';
 import { Link } from 'react-router-dom';
-import slideImage1 from './slideImages/jack_D.png';
+import slideImage1 from './slideImages/jack_D.jpg';
 import slideImage3 from './slideImages/fireplace.jpg';
 import slideImage4 from './slideImages/dusty_whiskey.jpg';
 import slideImage5 from './slideImages/hq.jpg';

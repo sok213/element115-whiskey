@@ -1,7 +1,7 @@
 import s from './Footer.module.scss';
 import React, { useState, useEffect, Fragment } from 'react';
 import { Link } from 'react-router-dom';
-import logo from './../../assets/logo_footer.png';
+import logo from './../../assets/footer-logo-new.png';
 
 function Footer() {
 
